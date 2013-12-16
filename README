@@ -7,3 +7,8 @@ gcc -std=c99 -pthread ./multitasking.c -o multitasking
 Истязание системы страничной подкачки:
 Запуск:
 gcc -std=c99 ./swap.c -o swap
+
+Истязание ложным разделением.
+Запуск:
+gcc -std=c99 -pthread ./separation.c -o separation
+
