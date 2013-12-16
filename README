@@ -1,0 +1,5 @@
+Задача 6. Память.
+
+Мультизадачность.
+Запуск:
+gcc -std=c99 -pthread ./multitasking.c -o multitasking
