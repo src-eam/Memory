@@ -12,3 +12,6 @@ gcc -std=c99 ./swap.c -o swap
 Запуск:
 gcc -std=c99 -pthread ./separation.c -o separation
 
+Матрицы.
+Запуск:
+gcc -std=c99 -pthread ./matrix.c -o matrix
