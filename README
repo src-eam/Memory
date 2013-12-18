@@ -2,7 +2,11 @@
 
 Мультизадачность.
 Запуск:
-gcc -std=c99 -pthread ./multitasking.c -o multitasking
+gcc -std=c99 -pthread ./thread_tasking.c -o thread_tasking
+gcc -std=c99 -pthread ./fork_tasking.c -o fork_tasking
+time ./thread_tasking
+time ./fork_tasking
+сравниваем время
 
 Истязание системы страничной подкачки:
 Запуск:
